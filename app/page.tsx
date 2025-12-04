@@ -1,15 +1,8 @@
 import EventCard from "@/components/EventCard";
 import ExploreBtn from "@/components/ExploreBtn";
+import { events } from "@/lib/utils";
 import Image from "next/image";
 
-const events = [
-  {image: '/images/event1.png', title: 'Event 1'},
-  {image: '/images/event2.png', title: 'Event 2'},
-  {image: '/images/event3.png', title: 'Event 3'},
-  {image: '/images/event4.png', title: 'Event 4'},
-  {image: '/images/event5.png', title: 'Event 5'},
-  {image: '/images/event6.png', title: 'Event 6'}
-]
 
 export default function Home() {
   return (
