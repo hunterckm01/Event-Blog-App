@@ -15,7 +15,7 @@ export default function Home() {
       <ExploreBtn/>
 
       <div className="mt-20 space-y-7">
-        <h3>Featured Events</h3>
+        <h3 className="text-blue-300">Featured Events</h3>
         <ul className="events">
           {events.map((event, index)=>(
             <li key = {index}>
